@@ -1,0 +1,29 @@
+.HomeButtonList {
+  background-color: aqua;
+  max-height: 80vh;
+  max-width: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#TutorialButton,
+#RegisterButton {
+  width: 60%;
+  background-color: #845417;
+}
+
+#TutorialButton:hover,
+#RegisterButton:hover {
+  cursor: pointer;
+}
+
+#LoginRef {
+  color: white;
+}
+
+#LoginRef:hover{
+  cursor: pointer;
+}

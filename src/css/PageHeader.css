@@ -1,0 +1,18 @@
+.Game-logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+.Page-header {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+}
+
+.Torch {
+  height: 15vmin;
+  pointer-events: none;
+}
