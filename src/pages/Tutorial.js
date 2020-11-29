@@ -1,7 +1,8 @@
 import React from 'react'
+import StartTutorialButton from '../components/buttons/StartTutorialButton'
 
 const Tutorial = () => {
-  return <div></div>
+  return <StartTutorialButton/>
 }
 
 export default Tutorial
