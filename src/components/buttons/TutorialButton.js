@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import "../../css/HomeButtons.css";
+import React, { Component } from 'react'
+import { Button } from 'semantic-ui-react'
+import '../../css/HomeButtons.css'
 
 export default class TutorialButton extends Component {
   render() {
     return (
       <div>
-        <button id="TutorialButton">Tutorial</button>
+        <Button content="Tutorial" size="huge" inverted color='brown'/>
       </div>
-    );
+    )
   }
 }

@@ -1,14 +1,15 @@
-import HomeButtons from "./components/buttons/HomeButtons";
-import PageHeader from "./components/PageHeader";
-import "./css/App.css";
+import PageHeader from './components/PageHeader'
+import Main from './routes/Main'
+import './css/App.css'
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
   return (
     <div className="App">
       <PageHeader />
-      <HomeButtons />
+      <Main />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
