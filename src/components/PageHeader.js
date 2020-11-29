@@ -3,7 +3,7 @@ import torch from '../static/torch-gif.gif'
 import React from 'react'
 import '../css/PageHeader.css'
 
-function PageHeader(){
+const PageHeader = () =>{
   return (
     <header className="Page-header">
       <img src={torch} className="Torch" id="Torch-Left" alt="torchLeft" />

@@ -1,5 +1,5 @@
 .Game-logo {
-  height: 30vmin;
+  height: 28vmin;
   pointer-events: none;
 }
 
@@ -8,7 +8,7 @@
   flex-direction: row;
   align-items: top;
   justify-content: center;
-  height: 35vmin;
+  height: 30vmin;
 }
 
 .Torch {

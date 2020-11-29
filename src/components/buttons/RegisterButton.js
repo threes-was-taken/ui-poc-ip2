@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
 import { Button } from 'semantic-ui-react'
 import '../../css/HomeButtons.css'
 
-export default class RegisterButton extends Component {
-  render() {
-    return (
-      <div>
+const RegisterButton = () => {
+  return (
+    <div>
+      <Link to="/register">
         <Button content="Register" size="huge" inverted color="brown" />
-      </div>
-    )
-  }
+      </Link>
+    </div>
+  )
 }
+
+export default RegisterButton
